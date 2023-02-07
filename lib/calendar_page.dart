@@ -24,6 +24,9 @@ class _CalendarPageState extends State<CalendarPage> {
         title: Text('Exercise Calendar'),
       ),
       body: TableCalendar(
+        headerStyle: const HeaderStyle(
+          formatButtonVisible: false,
+        ),
         firstDay: kFirstDay,
         lastDay: kLastDay,
         focusedDay: _focusedDay,

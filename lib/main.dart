@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'calendar_page.dart';
+import 'exercise_page.dart';
+import 'options_page.dart';
 
 void main() {
   runApp(
@@ -29,8 +31,8 @@ class HomePage extends StatelessWidget {
             ),
             body: const TabBarView(children: [
               CalendarPage(),
-              CalendarPage(),
-              CalendarPage(),
+              ExercisePage(),
+              OptionsPage(),
             ])
           ),
         ));
