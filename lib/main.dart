@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'calendar_page.dart';
 import 'exercise_page.dart';
-import 'options_page.dart';
 
 void main() {
   runApp(
@@ -25,14 +24,12 @@ class HomePage extends StatelessWidget {
               bottom: const TabBar(tabs: [
                 Tab(icon: Icon(Icons.calendar_today), text: 'Day Tracker'),
                 Tab(icon: Icon(Icons.sports_gymnastics), text: 'Exercises'),
-                Tab(icon: Icon(Icons.menu_open), text: 'Options'),
               ]),
               title: const Text('Exercise Tracker'),
             ),
             body: const TabBarView(children: [
               CalendarPage(),
               ExercisePage(),
-              OptionsPage(),
             ])
           ),
         ));

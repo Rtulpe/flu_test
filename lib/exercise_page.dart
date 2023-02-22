@@ -12,25 +12,11 @@ class _ExercisePageState extends State<ExercisePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Options'),
+        title: Text('Basics'),
       ),
       body: ListView(
         children: const [
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello")),
-          ListTile(title: Text("Hello"))
+          ListTile(title: Text("First Day")),
         ],
       ),
     );
